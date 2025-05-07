@@ -174,7 +174,7 @@ body {
 .last {
     display: flex;
     flex-direction: row;
-    margin-left: 700px;
+    margin-left: 670px;
     gap: 35px;
     color: red;
 }
