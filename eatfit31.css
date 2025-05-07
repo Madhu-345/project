@@ -1,0 +1,85 @@
+/* Reset body */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Project wrapper */
+.project {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+/* Navbar styles */
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    border-bottom: 1px solid white;
+    box-shadow: 10px 10px 20px grey;
+    height: 50px;
+    font-size: 20px;
+    text-transform: capitalize;
+    padding-left: 100px;
+}
+
+.center {
+    display: flex;
+    gap: 40px;
+    padding-left: 370px;
+}
+
+.right {
+    display: flex;
+    gap: 20px;
+}
+
+.face,
+.twiter,
+.tube {
+    color: grey;
+}
+
+/* Navbar 2 styles */
+.navbar2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    list-style: none;
+}
+
+.logo {
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(12, 12, 91);
+}
+
+.list {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    border-bottom: 1px solid black;
+    margin: 0 50px;
+    padding: 20px;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.feat {
+    color: #eb0c77;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+/* Cards Container */
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px;
+    width: fit-content;
+}
